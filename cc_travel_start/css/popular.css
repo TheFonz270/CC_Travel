@@ -1,0 +1,162 @@
+#pop-bg-1 {
+    background-image: url(../img/destination/italy.png);
+  }
+  
+  #pop-bg-2 {
+    background-image: url(../img/destination/brazil.png);
+  }
+  
+  #pop-bg-3 {
+    background-image: url(../img/destination/america.png);
+  }
+
+  #pop-bg-4 {
+    background-image: url(../img/destination/nepal.png);
+  }
+
+  #pop-bg-5 {
+    background-image: url(../img/destination/maldives.png);
+  }
+
+  #pop-bg-6 {
+    background-image: url(../img/destination/indonesia.png);
+  }
+  
+  .popular {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .pop_dest {
+    margin: 10px 10px;
+    padding:10px;
+    color:white;
+    background-position:center;
+    width: 340px;
+    height: 250px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+  }
+
+  .pop_inner > a {
+    background-color:#60B99A;
+    color: white;
+    text-decoration:underline;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 5px;
+    
+  }
+
+  #pop_heading {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;    
+  }
+
+  .pop_inner {
+      display: flex;
+      height: 25px;
+  }
+
+  .pop_inner > h4 {
+      padding : 0 25px 0 0;
+      margin : 0;
+  }
+
+  #pop_heading > p {
+      color: grey;
+      margin-bottom: 0px;
+  }
+
+  #place-bg-1 {
+    background-image: url(../img/place/california.png);
+  }
+  
+  #place-bg-2 {
+    background-image: url(../img/place/korola_megna.png);
+  }
+  
+  #place-bg-3 {
+    background-image: url(../img/place/london.png);
+  }
+
+  #place-bg-4 {
+    background-image: url(../img/place/miami.png);
+  }
+
+  #place-bg-5 {
+    background-image: url(../img/place/california_2.png);
+  }
+
+  #place-bg-6 {
+    background-image: url(../img/place/iceland.png);
+  }
+  
+  .popular {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .pop_p_place {
+    margin: 10px 10px;
+    padding:10px;
+    background-position:center;
+    width: 340px;
+    height: 250px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+  }
+
+  .pop_p_place > p {
+    padding:0px;
+    margin:0px;
+    color:grey;
+  }
+
+  .pop_p_place > h3 {
+    margin-bottom:0px;
+    text-decoration:underline;
+  }
+
+  .pop_p_inner > a {
+    background-color:#60B99A;
+    color: white;
+    text-decoration:underline;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 10px;
+    height: 15px;
+    margin: 15px;
+    
+  }
+
+  #pop_p_heading {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: left;   
+      margin-left:25px; 
+  }
+
+  .pop_p_inner {
+      display: flex;
+      background-size: 340px 250px;
+      height:360px;
+  }
+
+  .pop_p_inner > h3 {
+      padding : 0 25px 0 0;
+      margin : 0;
+      color:#000000
+  }
+
+  #pop_p_heading > p {
+      color: grey;
+      margin-bottom: 0px;
+  }

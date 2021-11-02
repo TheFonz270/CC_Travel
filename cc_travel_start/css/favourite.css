@@ -1,13 +1,29 @@
-.favourite-bg-1 {
+#favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
   }
   
-  .favourite-bg-2 {
+  #favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
   }
   
-  .favourite-bg-3 {
+  #favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
   }
   
-  
+  .favourite {
+    display:flex;
+    justify-content: center;
+  }
+
+  .fav_dest {
+    margin: 15px 25px;
+    padding:10px;
+    color:white;
+    background-position:center;
+  }
+
+  .fav_dest > a {
+    background-color:#60B99A;
+    color: white;
+    text-decoration:none;
+  }
